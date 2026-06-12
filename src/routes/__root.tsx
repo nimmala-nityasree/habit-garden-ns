@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Habit Garden 🌱" },
+      { name: "description", content: "Track your habits, grow your garden, and stay consistent every day. Build positive routines through a fun and interactive experience." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Habit Garden 🌱" },
+      { property: "og:description", content: "Track your habits, grow your garden, and stay consistent every day. Build positive routines through a fun and interactive experience." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Habit Garden 🌱" },
+      { name: "twitter:description", content: "Track your habits, grow your garden, and stay consistent every day. Build positive routines through a fun and interactive experience." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/dc70003a-853c-486d-93c4-acb439d95a3b/id-preview-d2cdca26--f3707d56-8579-474b-a1c3-93268d03d05c.lovable.app-1781278482838.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/dc70003a-853c-486d-93c4-acb439d95a3b/id-preview-d2cdca26--f3707d56-8579-474b-a1c3-93268d03d05c.lovable.app-1781278482838.png" },
     ],
     links: [
       {
